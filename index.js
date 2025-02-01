@@ -5,8 +5,8 @@ const userRoutes = require('./route/userRoute');
 const productRoutes = require('./route/productRoute');
 const app = express();
 const PORT = 2200;
-// const live_uri =
-//   'mongodb+srv://futhifoxmaseko:FuthiFoXx_54140@cluster0.y7f3g.mongodb.net/myStore?retryWrites=true&w=majority&appName=Cluster0';
+const live_uri =
+'mongodb+srv://nandutut2013:<Israel@1>@cluster.b8wuy.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=Cluster';
 
 const local_URI = 'mongodb://localhost:27017/multer';
 app.get('/', (req, res) => {
